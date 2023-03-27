@@ -1,0 +1,3 @@
+default: --profile html_report
+messages: --format message --out=reports/cucumber-messages.ndjson
+html_report: -r features -b --format pretty -x --format html --out=features/reports/cucumber.html
